@@ -3,9 +3,95 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
-	<body>
-		<h1>Еремеев Никита ИДМ-20-01</h1>
+	<body class="body">
+		<!-- <h1>Еремеев Никита ИДМ-20-01</h1> -->
+		<main class="container">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">Лабораторная 1</li>
+					<li class="nav__item">Лабораторная 2</li>
+					<li class="nav__item">Лабораторная 3</li>
+				</ul>
+			</nav>
+			<section class="about">
+				<div class="fl ait jcc h100">
+					<div class="mr-24">
+						<img class="avatar" src="ava.png" alt="аватар" />
+					</div>
+
+					<div class="info">
+						<h1 class="mb-8"> Еремеев Никита</h1>
+						<div>
+							<div class="mb-4">Группа: ИДМ-20-01</div>
+							<div class="mb-4">Команда: TheTeams</div>
+							<div class="mb-4">Роль: Программист (Frontender)</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h1>Лабораторная 1</h1>
+
+				<div>
+					<div>
+						Задание: Необходимо создать сайт отчет и залить его на
+						хостинг GitHyb Pages
+					</div>
+					<div>Действия по создание и деплою на хостинг</div>
+					<div>
+						<ol class="task_list">
+							<li>
+								Был создан новый репозиторий на сайте github
+								pages
+							</li>
+							<li>
+								Была создана новая папка, в которой хранятся
+								рабчие файла сайта
+							</li>
+                            <li>
+                                Команды для деплоя сайта на хостинг
+                                <ul>
+                                    <li>
+                                        <b>git init</b> - создает локальный репозиторий в нашей папке
+                                    </li>
+                                    <li>
+                                        <b>git add .</b> - добавление всех новых файлов в отслеживание
+                                    </li>
+                                    <li>
+                                        <b>git commit -m"commit text"</b> - создания комментария к нашим изменениям
+                                    </li>
+                                    <li>
+                                        <b>git remote add origin ссылка_на_репозиторий</b> - связываем наш локальный репозиторий с удаленным
+
+                                    </li>
+                                    <li>
+                                        <b>git push -u origin master</b> - пушим наши зменения на удаленный репозиторий
+                                    </li>
+                                    <li>
+                                        <b> git checkout -b gh-pages</b> - создаем новую ветку gh-pages, которая является хостингом
+                                    </li>
+                                    <li>
+                                        <b> git checkout master</b> -  возвращаемся на ветку master
+                                    </li>
+                                    <li>
+                                        <b>git push origin master:gh-pages</b> - пушим все файлы из ветки msater в ветку gh-pages, тем самым заливая файлы на хостинг
+                                    </li>
+                                </ul>
+                            </li>
+
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h1>Лабораторная 2</h1>
+			</section>
+			<section>
+				<h1>Лабораторная 3</h1>
+			</section>
+		</main>
 	</body>
 </html>
