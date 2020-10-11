@@ -8,6 +8,9 @@ body {
 	line-height: 1.42;
 	-webkit-font-smoothing: antialiased;
 }
+a {
+	text-decoration: none;
+}
 ul,
 li,
 p,
@@ -45,7 +48,7 @@ h4 {
 	border-bottom: 4px solid transparent;
 }
 .nav__item:hover {
-	border-bottom: 4px solid green;
+	border-bottom: 4px solid orange;
 	cursor: pointer;
 }
 .about {
