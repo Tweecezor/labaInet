@@ -1,12 +1,17 @@
 * {
 	box-sizing: border-box;
 	color: white;
+	padding: 0;
+	margin: 0;
 }
 body {
 	font-family: Open Sans, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.42;
 	-webkit-font-smoothing: antialiased;
+}
+html {
+	scroll-behavior: smooth;
 }
 a {
 	text-decoration: none;
@@ -22,8 +27,13 @@ h4 {
 	padding: 0;
 	/* list-style: none; */
 }
-.body {
+.train-bg {
 	background: url("./1800.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.wood-bg {
+	background: url("./background-skills.jpg") no-repeat;
 	background-size: cover;
 	width: 100%;
 }
@@ -80,6 +90,9 @@ h4 {
 .mb-8 {
 	margin-bottom: 8px;
 }
+.mb-40 {
+	margin-bottom: 40px;
+}
 .mb-4 {
 	margin-bottom: 4px;
 }
@@ -94,4 +107,36 @@ h4 {
 }
 .task_list {
 	list-style-type: square square;
+}
+.img {
+	width: 600px;
+	height: 500px;
+}
+.images {
+	display: flex;
+}
+img {
+	max-width: 100%;
+	width: 100%;
+	object-fit: contain;
+	height: 100%;
+}
+.images-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+.images-big {
+	width: 800px;
+	height: 500px;
+}
+.pb-40 {
+	padding-bottom: 40px;
+}
+.pt-40 {
+	padding-top: 40px;
 }
